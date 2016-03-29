@@ -14,9 +14,9 @@ describe('fizzbuzz', function() {
     assert.equal(fizzbuzz(6), 'fizz');
   });
 
-  // it('returns buzz when divisble by 5 but not 3', function() {
-  //   assert.equal(fizzbuzz(10), 'buzz');
-  // });
+  it('returns buzz when divisble by 5 but not 3', function() {
+    assert.equal(fizzbuzz(10), 'buzz');
+  });
 
   // it('returns input otherwise', function() {
   //   assert.equal(fizzbuzz(7), '7');
