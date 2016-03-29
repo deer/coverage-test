@@ -18,7 +18,7 @@ describe('fizzbuzz', function() {
     assert.equal(fizzbuzz(10), 'buzz');
   });
 
-  // it('returns input otherwise', function() {
-  //   assert.equal(fizzbuzz(7), '7');
-  // });
+  it('returns input otherwise', function() {
+    assert.equal(fizzbuzz(7), '7');
+  });
 });
